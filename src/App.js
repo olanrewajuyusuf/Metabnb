@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import HomePage from "./components/Home";
+// import Housing from "./components/Housing";
+// import Discover from "./components/Nfts";
+// import Footer from "./components/footer";
+// import ConnectWallet from "./components/connect-wallet";
+import Place from "./components/Place";
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path={`/`} element={<HomePage />} />
+        <Route path={`/Place`} element={<Place />} exact />
+      </Routes>
+    </Router>
   );
 }
 
