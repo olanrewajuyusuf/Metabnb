@@ -19,14 +19,13 @@ function Header() {
   };
   const handleMenu = () => {
     setShowMenu((prev) => !prev);
-    // window.addEventListener("resize", function () {
-    //   let browserWidth = window.innerWidth;
-    //   if (browserWidth >= 800) {
-    //     setShowMenu((prev) => prev);
-    //     console.log(showMenu);
-    //   }
-    // });
   };
+  window.addEventListener("resize", function () {
+    let browserWidth = window.innerWidth;
+    if (browserWidth >= 800) {
+      setShowMenu(true);
+    }
+  });
 
   return (
     <>
