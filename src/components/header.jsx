@@ -5,13 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 function Header() {
   const [showModal, setShowModal] = useState(false);
-  const [showMenu, setShowMenu] = useState(false);
-  window.addEventListener("resize", function () {
-    let browserWidth = window.innerWidth;
-    if (browserWidth >= 800) {
-      setShowMenu(true);
-    }
-  });
+  const [showMenu, setShowMenu] = useState(true);
 
   const lists = [
     { id: "a", list: "Home" },
@@ -26,6 +20,12 @@ function Header() {
   const handleMenu = () => {
     setShowMenu((prev) => !prev);
   };
+  window.addEventListener("resize", function () {
+    let browserWidth = window.innerWidth;
+    if (browserWidth >= 800) {
+      setShowMenu(true);
+    }
+  });
 
   return (
     <>
