@@ -273,14 +273,15 @@ footer section:nth-of-type(4) {
     margin-top: 500px;
   }
   .container {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+    justify-items: center;
   }
   .nfts {
     flex-direction: column;
     height: 1200px;
     text-align: center;
-    margin: 400px auto 0 auto;
+    margin: 800px auto 0 auto;
   }
   .interior img:nth-of-type(1) {
     z-index: 1;
@@ -302,7 +303,7 @@ footer section:nth-of-type(4) {
     gap: 20px;
   }
   .place-to-stay {
-    margin-bottom: 800px;
+    margin-bottom: 1700px;
   }
 }
 
@@ -485,6 +486,8 @@ footer section:nth-of-type(4) {
   .place-nav ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
     gap: 20px;
   }
 }
