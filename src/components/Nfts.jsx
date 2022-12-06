@@ -26,11 +26,17 @@ function Discover() {
         </button>
       </section>
       <section>
-        <div className="interior" style={{ position: "relative" }}>
-          <img src="images/image 7.png" alt="#" />
-          <img src="images/image 8.png" alt="#" />
-          <img src="images/image 9.png" alt="#" />
-        </div>
+        {/* <div className="interior">
+          <div className="upper"> */}
+        <img src="images/image 9.png" alt="#" className="upper" />
+        {/* </div>
+          <div className="middle"> */}
+        <img src="images/image 7.png" alt="#" className="middle" />
+        {/* </div>
+          <div className="lower"> */}
+        <img src="images/image 8.png" alt="#" className="lower" />
+        {/* </div>
+        </div> */}
       </section>
     </div>
   );

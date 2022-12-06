@@ -24,6 +24,8 @@ function Header() {
     let browserWidth = window.innerWidth;
     if (browserWidth >= 800) {
       setShowMenu(true);
+    } else {
+      setShowMenu(false);
     }
   });
 

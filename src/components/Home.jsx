@@ -33,10 +33,14 @@ function HomePage() {
           <article className="right">
             <div className="img-1">
               <img src="images/image 4.png" alt="#" />
-              <img src="images/image 6.png" alt="#" />
             </div>
             <div className="img-2">
+              <img src="images/image 6.png" alt="#" />
+            </div>
+            <div className="img-3">
               <img src="images/image 3.png" alt="#" />
+            </div>
+            <div className="img-4">
               <img src="images/image 5.png" alt="#" />
             </div>
           </article>

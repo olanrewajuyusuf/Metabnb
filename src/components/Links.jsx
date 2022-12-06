@@ -11,7 +11,7 @@ function Link() {
     fontSize: 16,
     fontFamily: "Red Rose",
     color: "#333333",
-    marginLeft: 30,
+    marginLeft: 0,
   };
   const links = [
     "Resturant",

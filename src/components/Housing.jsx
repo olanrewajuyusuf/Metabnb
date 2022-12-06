@@ -8,8 +8,6 @@ function Housing() {
     fontSize: 12,
     color: "#434343",
     textAlign: "start",
-    marginLeft: 15,
-    marginRight: 15,
   };
 
   const images = [
@@ -52,10 +50,7 @@ function Housing() {
                     available for 2weeks stay
                   </span>
                 </p>
-                <div
-                  className="image-container"
-                  style={{ marginLeft: 15, marginTop: -5 }}
-                >
+                <div className="image-container" style={{ marginTop: -5 }}>
                   <img src="images/Star 2.png" alt="#" />
                   <img src="images/Star 2.png" alt="#" />
                   <img src="images/Star 2.png" alt="#" />
